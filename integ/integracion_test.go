@@ -17,3 +17,15 @@ func TestEvenSum(t *testing.T) {
 		t.FailNow()
 	}
 }
+
+func TestEventDiv(t *testing.T) {
+	a := genrear.Even()
+	b := generar.One()
+
+	res := bud.Div(a,b)
+
+	if res != a {
+		t.FailNow()
+	}
+}
+

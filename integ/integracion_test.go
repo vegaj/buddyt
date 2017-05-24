@@ -22,9 +22,9 @@ func TestEventDiv(t *testing.T) {
 	a := genrear.Even()
 	b := generar.One()
 
-	res := bud.Div(a,b)
+	res, err := bud.Div(a,b)
 
-	if res != a {
+	if res != a || err != nil {
 		t.FailNow()
 	}
 }

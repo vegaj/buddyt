@@ -25,3 +25,19 @@ func TestMultiplyZero(t *testing.T) {
 		t.FailNow()
 	}
 }
+
+// T2.01
+
+func TestMultiplyRegular(t *testing.T) {
+	res := buddy.Mul(3,4)
+	if res != 12 {
+		t.FailNow()
+	}
+}
+
+func TestMultiplyEntity(t *testing.T) {
+	res := buddy.Mul(3,1)
+	if res != 3 {
+		t.FailNow()
+	}
+}

@@ -16,3 +16,12 @@ func TestSumZero(t *testing.T) {
 		t.FailNow()
 	}
 }
+
+// Test part 2
+
+func TestMultiplyZero(t *testing.T) {
+	res := buddy.Mul(3, 0)
+	if res != 0 {
+		t.FailNow()
+	}
+}

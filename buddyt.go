@@ -2,7 +2,6 @@ package buddy
 
 import "errors"
 
-
 func Sum (a int, b int) int {
 	return a + b
 }

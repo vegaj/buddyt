@@ -1,4 +1,4 @@
-package calc
+package buddy
 
 import "errors"
 

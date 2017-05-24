@@ -1,4 +1,4 @@
-package calcTest
+package pruebas
 
 import "testing"
 import "github.com/vegaj/buddyt"

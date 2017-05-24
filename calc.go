@@ -1,6 +1,6 @@
 package calc
 
-import "error"
+import "errors"
 
 
 func Sum (a, b int) int {
@@ -9,6 +9,6 @@ func Sum (a, b int) int {
 
 func Div (a, b int) int, error {
 	if b == 0 {
-		return 0, error.New("Div 0!")
+		return 0, errors.New("Div 0!")
 	}
 }

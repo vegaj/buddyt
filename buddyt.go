@@ -13,3 +13,9 @@ func Div (a int, b int) (int, error) {
 	}
 	return a / b, nil
 }
+
+// Entrega 2
+
+func Mul(a , b int) int {
+	return a * b
+}

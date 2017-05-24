@@ -19,7 +19,7 @@ func TestEvenSum(t *testing.T) {
 }
 
 func TestEventDiv(t *testing.T) {
-	a := genrear.Even()
+	a := generar.Even()
 	b := generar.One()
 
 	res, err := bud.Div(a,b)
